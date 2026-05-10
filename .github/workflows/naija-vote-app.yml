@@ -1,4 +1,4 @@
-name: Build and Push to DockR
+name: Build and Push to DockeR
 
 on:
   workflow_dispatch:
