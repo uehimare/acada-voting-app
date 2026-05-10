@@ -29,7 +29,6 @@ jobs:
           context: .
           push: true
           tags: uehimare/naijavote-main:latest
-
   Deploy-2-ec2:
     runs-on: ubuntu-latest
     needs: build-image
