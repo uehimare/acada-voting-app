@@ -42,6 +42,5 @@ jobs:
             host: ${{ vars.EC2HOST }}
             username: ${{ secrets.EC2USERNAME }}
             key: ${{ secrets.EC2KEY }}
-            key_format: base64
             source: "*"
             target: ~/acada-vote-app
